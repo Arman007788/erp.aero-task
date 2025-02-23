@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# IDE files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Build output
+build/
+
+# Security keys
+private.pem
+public.pem
+refresh_private.pem
+refresh_public.pem
+
+# Public uploads (if dynamically stored)
+public/
+
+# MacOS system files
+.DS_Store

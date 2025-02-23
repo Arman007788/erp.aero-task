@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "ignore": [".git", "node_modules", "build"],
+  "watch": ["./src"],
+  "exec": "ts-node src/app.ts",
+  "ext": "ts,json"
+  }

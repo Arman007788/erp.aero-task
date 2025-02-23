@@ -1,0 +1,16 @@
+export const UNKNOWN = "Unknown Error";
+export const INTERNAL = "Internal server error";
+export const TOKEN_NOT_FOUND = "Token was not found";
+export const TOKEN_DEACTIVATED = "Token has been deactivated";
+export const INVALID_TOKEN = "Invalid token";
+export const INVALID_TOKEN_PAYLOAD = "Invalid token payload";
+export const TOKEN_NOT_GENERATED = "Token was not generated";
+export const INVALID_REFRESH_TOKEN = "Invalid refresh token";
+export const UPLOAD_SINGLE_FILE = "Please upload a single file";
+export const FILE_NOT_FOUND = "File was not found";
+export const FILE_UPLOAD_FAIL = "File upload failed";
+export const EMAIL_ALREADY_EXIST = "This email already exist";
+export const PHONE_NUMBER_ALREADY_EXIST = "This phone number already exist";
+export const WRONG_EMAIL_OR_PHONE = "Wrong email or phone number";
+export const WRONG_CREDENTIALS = "Wrong credentials";
+export const USER_NOT_FOUND = "User was not found";
