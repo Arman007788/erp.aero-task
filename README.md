@@ -17,11 +17,11 @@ create public folder in root directory
 3. openssl genpkey -algorithm RSA -out refresh_private.pem -pkeyopt rsa_keygen_bits:2048
 4. openssl rsa -pubout -in refresh_private.pem -out refresh_public.pem
 
+## Project configs
+create .env file and add keys like in .env.example
+
 ## Migrations
 npm run migration:run
-
-## Project variables
-create .env and add keys like in .env.example
 
 ## How start project
 1. npm run dev
